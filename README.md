@@ -6,9 +6,10 @@
 
 2. Images are first gone through the process of segmentation to identify main subjects in the image. (Segmented images are available with the dataset also)(refer the image below)
 
-<div align="center">
-![Segmented Image](pics/seg.jpeg)
-</div>
+<p align="center">
+  <img src="pics/seg.jpeg">
+</p>
+
 
 3. Resized images to 299X299.
 
@@ -24,9 +25,10 @@
 
 3. One module of inception consist of (1X1 conv layer --> 5X5 conv layer) + (1X1 conv layer --> 3X3 conv layer) + (1X1 conv layer) + (maxpool layer --> 1X1 conv layer) (refer the image )
 
-<div align="center">
-![Inception Module](pics/inception.png)
-</div>
+<p align="center">
+  <img src="pics/inception.png">
+</p>
+
 
 4. There are many such layers that are shown in the above images stacked upon each other. For more details, [check this out](https://www.analyticsvidhya.com/blog/2018/10/understanding-inception-network-from-scratch/).
 
@@ -43,9 +45,9 @@
 
 5. The accuracy obtained on the train set is 93% and the test set is 61%.
 
-<div align="center">
-![Inception Module](pics/result.png)
-</div>
+<p align="center">
+  <img src="pics/result.png">
+</p>
 
 
 ## Model Functions:
@@ -60,6 +62,6 @@
 
 5. Data is trained for 100 epochs with a learning rate of 0.001.
 
-Credits: [Link](https://arxiv.org/pdf/1708.03763.pdf)  
-Code Inspired from:[Link](https://github.com/Kulbear/deep-learning-coursera/blob/master/Convolutional%20Neural%20Networks/Convolution%20model%20-%20Application%20-%20v1.ipynb)  
-Data and Code:https:[Link](//drive.google.com/drive/folders/1mS9Um9oQnkFRfVcmwx8Kdz_pfUGumU02?usp=sharing)
+**Credits**: [Link](https://arxiv.org/pdf/1708.03763.pdf)  
+**Code Inspired from**:[Link](https://github.com/Kulbear/deep-learning-coursera/blob/master/Convolutional%20Neural%20Networks/Convolution%20model%20-%20Application%20-%20v1.ipynb)  
+**Data and Code**:https:[Link](//drive.google.com/drive/folders/1mS9Um9oQnkFRfVcmwx8Kdz_pfUGumU02?usp=sharing)
